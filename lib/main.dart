@@ -1,9 +1,4 @@
-import 'package:bloc/bloc.dart';
 import 'package:flutter/widgets.dart';
-import 'app.dart';
-import 'package:block_test/counter_observer.dart';
+import 'package:block_test/app.dart';
 
-void main() {
-  Bloc.observer = const CounterObserver();
-  runApp(const CounterApp());
-}
+void main() => runApp(const App());
